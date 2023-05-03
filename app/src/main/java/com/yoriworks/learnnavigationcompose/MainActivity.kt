@@ -19,7 +19,7 @@ import com.yoriworks.learnnavigationcompose.ui.theme.LearnNavigationComposeTheme
 class MainActivity : ComponentActivity() {
     
     sealed class NavDrawerItem(var route: String, var icon: Int, var title: String) {
-        object Home: NavDrawerItem("home", R.drawable.ic_menu_home, "Home")
+        object Home : NavDrawerItem("home", R.drawable.ic_menu_home, "Home")
         object Detail : NavDrawerItem("detail", android.R.drawable.ic_menu_info_details, "Detail")
     }
     
